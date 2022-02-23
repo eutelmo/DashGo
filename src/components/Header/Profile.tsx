@@ -6,7 +6,7 @@ interface ProfileProps {
 
 export function Profile({showProfileDate= true}: ProfileProps) {
   return(
-    <Flex align="center">
+    <Flex align="center" ml="4">
       { showProfileDate && (
         <Box mr="4" textAlign="right">
         <Text>Telmo J.Moura</Text>
